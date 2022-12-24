@@ -1,0 +1,33 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main-container{
+  background-color: #EFF5F5;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+#main-container > form > div{
+  padding: 10px 0px;
+}
+
+label{
+  font-size: 20px;
+  font-weight: 550;
+}
+
+input[type=text], select, textarea, button {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
